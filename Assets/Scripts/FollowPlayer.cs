@@ -7,9 +7,9 @@ public class FollowPlayer : MonoBehaviour
 {
     public GameObject player;
 
+    [SerializeField] private Vector3 backOffset = new Vector3(0, 5, -7);
+    [SerializeField] private Vector3 frontOffset = new Vector3(0, 2, 1);
     private Vector3 cameraOffset;
-    private Vector3 backOffset = new Vector3(0, 5, -7);
-    private Vector3 frontOffset = new Vector3(0, 2, 1);
     private bool frontCamera = false;
 
     // Start is called before the first frame update

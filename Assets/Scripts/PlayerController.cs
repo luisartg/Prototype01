@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float speed = 10.0f;
-    public float turnSpeed = 25.0f;
-    public string player = "P1";
+    [SerializeField] private float speed = 10.0f;
+    [SerializeField] private float turnSpeed = 25.0f;
+    [SerializeField] private string player = "P1";
 
     private float horizontalInput = 0;
     public float verticalInput = 0;
